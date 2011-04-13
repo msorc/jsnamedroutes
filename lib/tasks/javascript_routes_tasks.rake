@@ -3,9 +3,7 @@ namespace :routes do
 
     desc 'Generate routes.js based on routes defined in routes.rb'
     task :generate => :environment do
-      ActionController::Routing::Routes.load!
       JavascriptRoutes.generate
-      puts "Generated #{JavascriptRoutes::FILENAME}"
     end
 
     desc 'Minify the routes.js base file'
