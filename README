@@ -1,7 +1,7 @@
 JavascriptRoutes
 ================
 Rails routes get generated in JavaScript...
-
+Experimental Rails 2 and Rails 3 support.
 
 How it works
 ============
